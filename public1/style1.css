@@ -1,0 +1,106 @@
+body {
+    background-color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(247, 202, 201);
+    border: 2px solid black;
+    border-radius: 0px;
+    padding: 20px;
+    width: 80%;
+    height: 90%;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.input-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.input-section label {
+    font-weight: bold;
+    margin-right: 10px;
+    flex: 0 0 auto; 
+}
+
+
+.input-section input, .input-section select {
+    padding: 10px;
+    margin: 10px;
+    flex: 1 1 200px;
+    box-sizing: border-box;
+    border-radius: 0px; 
+    border: 1px solid black;
+}
+
+.input-section button,
+.add-btn,
+.delete-btn {
+    width: 100px;
+    height: 40px;
+    padding: 0;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.input-section button:hover,
+.add-btn:hover,
+.delete-btn:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.expenses-list {
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 8px;
+}
+
+th {
+    background-color: rgb(225, 137, 74);
+    color: white;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+select {
+    border-radius: 0px; 
+    border: 1px solid black;
+    background-color: white; 
+    color: black; 
+}
+
+option {
+    background-color: white; 
+    color: black; 
+}
